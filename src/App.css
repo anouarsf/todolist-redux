@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.App{
+    text-align: center;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 420px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*------------Title todolist--------------*/
+.header-title{
+    color : rgba(238, 236, 229, 0.5) ;
+font-size : 40px;
+font-family: 'Archivo Black', sans-serif;
+font-weight: bolder;
+}
+.header-subtitle{
+    font-size : 20px;
+    font-family: 'Dancing Script', cursive;
+    color : rgb(255, 255, 255) ;
+}
+.text{
+    color : white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.itemtext{
+    width: 350px;
+    height: 20px;
+    }
+/*-----------Buttons--------------*/
+
+.btn-add{
+    height: 25px;
+    width: 60px;
+    color: rgb(197, 56, 13);
+   
+    font-family: 'Tomorrow', sans-serif;
+    background-color:rgb(238, 236, 229)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.put-items-li{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.btn-complete{
+    color: rgb(255, 255, 255);
+    background-color:rgb(75, 0, 0);
+    border-color: rgb(75,0,0);
+    font-family: 'Tomorrow', sans-serif;
+    border-radius: 30px;
+    margin-right: 5px;
+    
+}
+.btn-complete:hover{
+    margin-left: +15px;
+    margin-right: +15px;
+
+
+  cursor: grab;
+
 }
 
-.App-link {
-  color: #61dafb;
+.btn-delete{
+    color: rgb(255, 255, 255);
+    background-color:rgb(2, 53, 19);
+    border-color: rgb(2,53,19);
+    font-family: 'Tomorrow', sans-serif;
+    border-radius: 30px;
+    margin-right: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-delete:hover{
+    transform: scale(1.50);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: grab;
 }
+/*---------------------Edit-------------------*/
+.btn-edit{
+    color: rgb(255, 255, 255);
+    background-color:rgb(190, 32, 32);
+    border-color: rgb(190, 32, 32);
+    font-family: 'Tomorrow', sans-serif;
+    border-radius: 30px;
+        height: 22px;
+        width:70px;
+}
+
+.btn-edit:hover{
+    transform: scale(1.50);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: grab;}
