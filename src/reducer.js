@@ -20,8 +20,7 @@ export  const reducer = (state=intialState , action) =>{
             id===action.payload.id ?
             {...el, Text:action.payload.task }: el)}
         
-        case "EDIT":
-             return { ...state, title: action.payload }
+        
         default : return state }
 }
 

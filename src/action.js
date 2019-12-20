@@ -34,12 +34,8 @@ export const updatetask=(payload) => {
     }
 }
 
-// 
-export const edit = (payload) => {
-    return {
-        type: "EDIT", payload
-    }
-}
+
+
 
 
 
